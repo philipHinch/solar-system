@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: radial-gradient(#1b2735, #090a0f);
+  position: relative;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin-top: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 70%;
+}
+
+.container svg {
+  width: 100%;
+}
+
+#stars {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  bottom: -101vh;
+  background-color: white;
+  animation: starAnimation 10s linear infinite;
+}
+
+.info {
+  z-index: 2;
+  width: 80%;
+  height: 200px;
+  color: white;
+  border: honeydew 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* sun */
+.cls-123 {
+  cursor: pointer;
+}
+
+.cls-123:hover {
+  fill: transparent;
+}
+
+/* mercury */
+.cls-146 {
+  cursor: pointer;
+}
+
+.cls-146:hover {
+  fill: transparent;
+}
+
+/* venus */
+.cls-146 {
+  cursor: pointer;
+}
+
+.cls-146:hover {
+  fill: transparent;
+}
+
+@keyframes starAnimation {
+  to {
+    transform: translateY(-105vh);
+  }
+}
