@@ -14,20 +14,21 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-image: radial-gradient(#1b2735, #090a0f);
   position: relative;
+  overflow: hidden;
 }
 
 h1 {
   color: white;
   display: flex;
   justify-content: center;
-  font-size: 4rem;
-  margin-top: 10px;
+  font-size: 3.5rem;
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
 }
 
 main {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .container {
@@ -39,25 +40,63 @@ main {
 }
 
 #stars {
-  position: absolute;
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);
+  box-shadow: rgba(255, 255, 255, 1) 0px 0px 30px 2px;
   width: 1px;
   height: 1px;
-  bottom: -101vh;
   background-color: white;
-  animation: starAnimation 10s linear infinite;
+  z-index: -20;
+  animation: starAnimation 20s linear;
 }
 
 .info {
   z-index: 2;
   width: 80%;
-  height: 200px;
+  height: 300px;
   color: white;
-  border: honeydew 1px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 20px;
+  letter-spacing: 1px;
   margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+h2.planet-name {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  padding: 8px;
+}
+
+.info p {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  margin: 3px;
+}
+
+.info p:last-child {
+  border-bottom: none;
+}
+
+.info p span {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+sup {
+  margin-right: 5px;
+}
+
+#Layer_1 {
+  fill: white;
 }
 
 /* sun */
@@ -79,16 +118,24 @@ main {
 }
 
 /* venus */
-.cls-146 {
+.cls-156 {
   cursor: pointer;
 }
 
-.cls-146:hover {
+.cls-156:hover {
+  fill: transparent;
+}
+/* earth */
+.cls-127 {
+  cursor: pointer;
+}
+
+.cls-127:hover {
   fill: transparent;
 }
 
 @keyframes starAnimation {
   to {
-    transform: translateY(-105vh);
+    transform: translateY(105vh);
   }
 }
