@@ -60,6 +60,7 @@ main {
   letter-spacing: 1px;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 h2.planet-name {
@@ -99,6 +100,14 @@ sup {
   fill: white;
 }
 
+.solar-system-info {
+  width: 80%;
+  margin: 10px auto;
+  line-height: 22px;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+}
+
 /* sun */
 .cls-123 {
   cursor: pointer;
@@ -134,8 +143,62 @@ sup {
   fill: transparent;
 }
 
+/* mars */
+.cls-30 {
+  cursor: pointer;
+}
+
+.cls-30:hover {
+  fill: transparent;
+}
+
+/* jupiter */
+.cls-49 {
+  cursor: pointer;
+}
+
+.cls-49:hover {
+  fill: transparent;
+}
+
+/* saturn  SOMETHING WRONG HERE*/
+.cls-67 {
+  cursor: pointer;
+}
+
+.cls-67:hover > .cls-70 {
+  fill: transparent;
+}
+
+/* uranus */
+.cls-100 {
+  cursor: pointer;
+}
+
+.cls-100:hover {
+  fill: transparent;
+}
+
+/* neptune */
+.cls-91 {
+  cursor: pointer;
+}
+
+.cls-91:hover {
+  fill: transparent;
+}
+
 @keyframes starAnimation {
   to {
     transform: translateY(105vh);
   }
 }
+
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
