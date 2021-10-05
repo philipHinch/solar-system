@@ -86,9 +86,6 @@ function showGeneralInfo() {
                 While our planet is in some ways a mere speck in the vast cosmos, we have a lot of company out there. It seems that we live in a universe packed with planets – a web of countless stars accompanied by families of objects, perhaps some with life of their own. Our planetary system is named the "solar system" because our Sun is named Sol and anything related to the Sun we call "solar."</div>
             `
         }
-        // if (e.target !== svg.path) {
-        //     console.log('hello');
-        // }
     })
 }
 
@@ -116,7 +113,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
-// remove info if click outside planet
+
 
 
 

@@ -1,7 +1,3 @@
-// const url = 'https://api.le-systeme-solaire.net/rest/bodies/?data=id,englishName,isPlanet,mass,vol,density,gravity,equaRadius,aroundPlanet,discoveredBy,discoveryDate,avgTemp';
-
-let sunUrl = 'https://api.le-systeme-solaire.net/rest/bodies/soleil';
-
 const url = 'https://api.le-systeme-solaire.net/rest/bodies/';
 
 
