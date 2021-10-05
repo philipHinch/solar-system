@@ -14,9 +14,9 @@ I also used event listeners, regex functions, dom manipulation, css animations a
 
 [View Project](https://philiphinch.github.io/solar-system/)
 
-[Preview 1](images/preview1.png)
+![Preview 1](images/preview1.png)
 ---
-[Preview 2](images/preview2.png)
+![Preview 2](images/preview2.png)
 ---
 [View Project](https://philiphinch.github.io/solar-system/)
 
