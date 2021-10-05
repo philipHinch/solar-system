@@ -1,6 +1,6 @@
 # The-Solar-System
 
-This is a project about our solar system. You can check out some information about our neighbour planets when clicking on them.
+This is a project about our solar system. You can check out some information about our neighbouring planets when clicking on them.
 
 Technologies used:
 
